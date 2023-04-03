@@ -2,6 +2,7 @@
     text-align: center;
     margin: 0 auto;
     padding-top: 200px;
+    width: 400px;
 }
 .calculator-screen{
     width: 100%;
@@ -14,7 +15,7 @@
     padding: 0 20px;
     box-sizing: border-box;
 }
-.calculator-keys{
+.calculator-key{
     width: 100%;
 }
 .row{
@@ -22,20 +23,23 @@
 }
 button{
     height: 80px;
-    background-color: grey;
+    background-color: gray;
     border: 1px solid black;
     font-size: 32px;
     color: #fff;
     width: 25%;
-    outline: none
+    outline: none;
 }
-.all-clear, .zero-btn{
+.zero-btn{
     width: 50%;
 }
-.operator, .equal-sign {
+.all-clear, zero-btn{
+    width: 50%;
+}
+.operator, .equal-sign{
     background-color: orange;
 }
-.operator:hover{
+button:hover {
     background-color: darkgray;
 }
 .operator:hover, .equal-sign:hover{
